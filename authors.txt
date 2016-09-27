@@ -1,0 +1,43 @@
+mcradler = René Adler <adlerre@users.noreply.github.com>
+mcrfluet = Frank Lützenkirchen <frank.luetzenkirchen@uni-due.de>
+mcrjkupf = Jens Kupferschmidt <bt1cu@users.noreply.github.com>
+mcrkrebs = Kathleen Neumann <neumann@gbv.de>
+mcrmeich = Matthias Eichner <Mewel@@users.noreply.github.com>
+mcrmibue = Michel Büchner <michel.buechner@uni-jena.de>
+mcrnverh = Nils Verheyen <captain-proton@users.noreply.github.com>
+mcrpabor = Paul Borchert <PaulBorchert@@users.noreply.github.com>
+mcrsherm = Silvio Hermann <Possommi@users.noreply.github.com>
+mcrshofm = Sebastian Hofmann <hofmann.s@uni-jena.de>
+mcrsteph = Robert Stephan <rsteph-de@users.noreply.github.com>
+mcrtchef = Thomas Scheffler <github@yagee.de>
+mcrvuchi = Huu Chi Vu <chiliego@users.noreply.github.com>
+mcrwoelt = Wiebke Oeltjen <WieOel@users.noreply.github.com>
+#(noauthor)
+#anonymous
+#mcramill
+#mcrascha
+#mcraseif
+#mcratrap
+#mcrbremi
+#mcrbsuse
+#mcrckoch 
+#mcrcvs
+#mcrddege
+#mcrdkirs
+#mcrheinz
+#mcrhhelm
+#mcrhrich
+#mcrhruem
+#mcrjbueh
+#mcrkpont
+#mcrkramm
+#mcrkuhnt
+#mcrkynas
+#mcrmhegn
+#mcrmheus
+#mcrmslue
+#mcrradic
+#mcrschmi
+#mcrsroeh
+#mcrukroe
+#mcrwgres
