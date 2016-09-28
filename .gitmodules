@@ -1,0 +1,3 @@
+[submodule "git-svn-migrate"]
+	path = git-svn-migrate
+	url = https://github.com/noplanman/git-svn-migrate
