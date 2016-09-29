@@ -17,12 +17,11 @@ mcrsteph = Robert Stephan <rsteph-de@users.noreply.github.com>
 mcrtchef = Thomas Scheffler <github@yagee.de>
 mcrvuchi = Huu Chi Vu <chiliego@users.noreply.github.com>
 mcrwoelt = Wiebke Oeltjen <WieOel@users.noreply.github.com>
-
+mcramill = Alexander Miller <AMill7@users.noreply.github.com>
 
 (no author) = no_author <no_author@C320BF3A-A90D-4DE6-950E-8B3152725485>
 anonymous = no_author <no_author@C320BF3A-A90D-4DE6-950E-8B3152725485>
 mcrcvs = no_author <no_author@C320BF3A-A90D-4DE6-950E-8B3152725485>
-mcramill = Alexander Miller <mcramill@duepub-1.zim.uni-duisburg-essen.de>
 mcrascha = Anja Helmbrecht-Schaar <mcrascha@duepub-1.zim.uni-duisburg-essen.de>
 mcratrap = Andreas Trappe <mcratrap@duepub-1.zim.uni-duisburg-essen.de>
 mcrbremi = Michael Brendel <mcrbremi@duepub-1.zim.uni-duisburg-essen.de>
