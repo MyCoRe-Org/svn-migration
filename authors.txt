@@ -1,6 +1,8 @@
+mcramill = Alexander Miller <AMill7@users.noreply.github.com>
 mcradler = René Adler <adlerre@users.noreply.github.com>
 mcraseif = Arne Seifert <seiferta@users.noreply.github.com>
 mcrfluet = Frank Lützenkirchen <frank.luetzenkirchen@uni-due.de>
+mcrhruem = Hinerk Rümenapf <hirue@users.noreply.github.com>
 mcrjbueh = Johannes Bühler <jonnybbb@gmail.com>
 mcrjkupf = Jens Kupferschmidt <bt1cu@users.noreply.github.com>
 mcrkrebs = Kathleen Neumann <neumann@gbv.de>
@@ -17,7 +19,8 @@ mcrsteph = Robert Stephan <rsteph-de@users.noreply.github.com>
 mcrtchef = Thomas Scheffler <github@yagee.de>
 mcrvuchi = Huu Chi Vu <chiliego@users.noreply.github.com>
 mcrwoelt = Wiebke Oeltjen <WieOel@users.noreply.github.com>
-mcramill = Alexander Miller <AMill7@users.noreply.github.com>
+
+mcrkynas = Clemens Kynast <clemens.kynast@uni-jena.de>
 
 (no author) = no_author <no_author@C320BF3A-A90D-4DE6-950E-8B3152725485>
 anonymous = no_author <no_author@C320BF3A-A90D-4DE6-950E-8B3152725485>
@@ -32,11 +35,9 @@ mcrdkirs = Daniel Kirst <mcrdkirs@duepub-1.zim.uni-duisburg-essen.de>
 mcrheinz = Philipp Heinze <mcrheinz@duepub-1.zim.uni-duisburg-essen.de>
 mcrhhelm = Heiko Helmbrecht <mcrhhelm@duepub-1.zim.uni-duisburg-essen.de>
 mcrhrich = Harald Richter <mcrhrich@duepub-1.zim.uni-duisburg-essen.de>
-mcrhruem = Hinerk Rümenapf <mcrhruem@duepub-1.zim.uni-duisburg-essen.de>
 mcrkpont = Kerstin Ponten <mcrkpont@duepub-1.zim.uni-duisburg-essen.de>
 mcrkramm = Matthias Kramm <mcrkramm@duepub-1.zim.uni-duisburg-essen.de>
 mcrkuhnt = Nicky Kuhnt <mcrkuhnt@duepub-1.zim.uni-duisburg-essen.de>
-mcrkynas = Clemens Kynast <mcrkynas@duepub-1.zim.uni-duisburg-essen.de>
 mcrmhegn = Mathias Hegner <mcrmhegn@duepub-1.zim.uni-duisburg-essen.de>
 mcrmheus = Marcel Heusinger <mcrmheus@duepub-1.zim.uni-duisburg-essen.de>
 mcrsroeh = Sebastian Röhler <mcrschmi@duepub-1.zim.uni-duisburg-essen.de>
