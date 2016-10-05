@@ -24,13 +24,17 @@ This monster will initialize a local Git repository in the current directory and
 Now we can finally convert SVN revision to GIT SHA checksums:
 
 ```
-"${MIGBASEDIR}/filter-branch-date-order" --msg-filter "${MIGBASEDIR}/mycore/mycore-msgfilter" --tag-name-filter cat -- --all
+"${MIGBASEDIR}/filter-branch-date-order" \ 
+ --msg-filter "${MIGBASEDIR}/mycore/mycore-msgfilter" \
+ --tag-name-filter cat -- --all
 ```
 
 After the initial convertation we need to update the checksum. Look [here](http://www.tt-solutions.com/en/articles/advanced_svn_to_git) further information.
 
 ```
-"${MIGBASEDIR}/filter-branch-date-order" -f --prune-empty --msg-filter "${MIGBASEDIR}/msgfilter-updatesha" --tag-name-filter cat -- --all
+"${MIGBASEDIR}/filter-branch-date-order" -f --prune-empty \
+ --msg-filter "${MIGBASEDIR}/msgfilter-updatesha" \
+ --tag-name-filter cat -- --all
 ```
 
 Git saves a backup before rewriting everything in `refs/original`, which we can clean now with:
