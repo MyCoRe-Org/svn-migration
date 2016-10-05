@@ -1,0 +1,37 @@
+#!/usr/bin/env perl
+###############################################################################
+# Message filter script for "git filter-branch --msg-filter" which replaces
+# all occurrences of Git SHA-1 commit IDs in the commit message with the new,
+# rewritten, commit ID.
+#
+# Copyright (C) 2013 Vadim Zeitlin
+###############################################################################
+
+use strict;
+use warnings;
+
+use Cwd;
+
+sub mapsha
+{
+    my ($sha) = @_;
+    chomp(my $shafull = `git rev-list -1 $sha`);
+    if (!$shafull) {
+        warn "\nUnknown commit $sha while rewriting $ENV{GIT_COMMIT}.\n";
+    } elsif (open my $fh, '<', ".git-rewrite/map/$shafull") {
+        $sha = <$fh>;
+        $sha = substr($sha, 0, 7);
+    } else {
+        warn "\nCommit $sha not mapped yet while rewriting $ENV{GIT_COMMIT}.\n";
+    }
+
+    return $sha;
+}
+
+my $git_dir = defined $ENV{GIT_DIR} ? $ENV{GIT_DIR} : getcwd() . "/.git";
+chdir "$git_dir/..";
+
+while (<>) {
+    s/(^|[^._=0-9a-zA-Z])([0-9a-f]{7})\b/$1 . mapsha($2)/eg;
+    print;
+}
