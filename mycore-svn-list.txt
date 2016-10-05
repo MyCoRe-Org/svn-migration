@@ -1,1 +1,0 @@
-mycore https://server.mycore.de/svn/mycore
