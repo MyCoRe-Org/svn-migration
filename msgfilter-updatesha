@@ -20,7 +20,6 @@ sub mapsha
         warn "\nUnknown commit $sha while rewriting $ENV{GIT_COMMIT}.\n";
     } elsif (open my $fh, '<', ".git-rewrite/map/$shafull") {
         $sha = <$fh>;
-        $sha = substr($sha, 0, 7);
     } else {
         warn "\nCommit $sha not mapped yet while rewriting $ENV{GIT_COMMIT}.\n";
     }
@@ -32,6 +31,6 @@ my $git_dir = defined $ENV{GIT_DIR} ? $ENV{GIT_DIR} : getcwd() . "/.git";
 chdir "$git_dir/..";
 
 while (<>) {
-    s/(^|[^._=0-9a-zA-Z])([0-9a-f]{7})\b/$1 . mapsha($2)/eg;
+    s/(^|[^._=0-9a-zA-Z])([0-9a-f]{40})\b/$1 . mapsha($2)/eg;
     print;
 }
