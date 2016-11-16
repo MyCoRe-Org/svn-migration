@@ -21,6 +21,7 @@ mcrvuchi = Huu Chi Vu <chi.vuhuu@gmail.com>
 mcrwoelt = Wiebke Oeltjen <WieOel@users.noreply.github.com>
 
 mcrkynas = Clemens Kynast <clemens.kynast@uni-jena.de>
+mcrtineu = Tilo Neumann <TiloNN@users.noreply.github.com>
 
 (no author) = no_author <no_author@C320BF3A-A90D-4DE6-950E-8B3152725485>
 anonymous = no_author <no_author@C320BF3A-A90D-4DE6-950E-8B3152725485>
