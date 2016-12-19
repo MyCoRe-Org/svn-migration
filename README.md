@@ -12,9 +12,9 @@ Make sure you use a file system that **does NOT ignore** cases of filenames (e.g
 
 ```
 MIGBASEDIR=$(cd ../.. && pwd -P)
-svn2git https://server.mycore.de/svn/mycore \ 
+svn2git https://server.mycore.de/svn/mycore \
  --exclude '.*[/]\.project$' --exclude '.*[/]\.classpath$' \
- --exclude '.*\.class$'  --exclude '.*\.settings($|[/].*)' \
+ --exclude '.*\.class$' --exclude '.*\.settings($|[/].*)' \
  --exclude '(?!.*[/](src|sources)[/]).*[/]target($|[/].*)' \
  -m --no-minimize-url --authors "${MIGBASEDIR}/authors.txt"
 ```
@@ -24,7 +24,7 @@ This monster will initialize a local Git repository in the current directory and
 Now we can finally convert SVN revision to GIT SHA checksums:
 
 ```
-"${MIGBASEDIR}/filter-branch-date-order" \ 
+"${MIGBASEDIR}/filter-branch-date-order" \
  --msg-filter "${MIGBASEDIR}/mycore/mycore-msgfilter" \
  --tag-name-filter cat -- --all
 ```
