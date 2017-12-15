@@ -19,6 +19,7 @@ mcrsteph = Robert Stephan <rsteph-de@users.noreply.github.com>
 mcrtchef = Thomas Scheffler <github@yagee.de>
 mcrvuchi = Huu Chi Vu <chi.vuhuu@gmail.com>
 mcrwoelt = Wiebke Oeltjen <WieOel@users.noreply.github.com>
+mcrproch = Paul Rochowski <Paul.Rochowski@uni-due.de>
 
 mcrkynas = Clemens Kynast <clemens.kynast@uni-jena.de>
 mcrtineu = Tilo Neumann <TiloNN@users.noreply.github.com>
